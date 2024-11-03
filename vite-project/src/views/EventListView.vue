@@ -54,9 +54,7 @@ onMounted(() => {
         v-if="hasNexPage"
         >Next Page &#62;</RouterLink
       >
-      +
     </div>
-    +
   </div>
 </template>
 <style scoped>

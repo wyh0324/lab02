@@ -18,6 +18,7 @@ defineProps<{
 .event-category-organizer {
   display: flex;
   flex-direction: column;
+  align-items: flex-end;
   width: 100%; /* 确保容器占据可用宽度 */
   text-align: center; /* 这才是将文本对齐到右侧的正确方式，但需要应用于文本元素上 */
 }
@@ -25,6 +26,7 @@ defineProps<{
 .text {
   font-size: 22px; /* 或您希望的任何大小 */
   margin: 0 0 8px;
+  border: 1px solid #000;
   padding: 4px;
 }
 
